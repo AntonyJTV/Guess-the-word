@@ -46,25 +46,27 @@ function handleInput(e){
     // Ignore non-letters input and letters that have already guessed
     const key = e.target.value.toLowerCase();
 
-    if (key.match(/^[a-z]+$/i) && !incorrectLetters.includes(`${key}`) && !correctLetters.includes(`${key}`)) {
+    if (key.match(/^[A-Za-z]+$/i) && !incorrectLetters.includes(`${key}`) && !correctLetters.includes(key)) {
         // Check if the letter is in word 
 
         if(word.includes(key)){
             // Update correct guess
             for (let i = 0; i < word.length; i++) {
                 if(word[i] === key){
-                    inputs.querySelectorAll("input")[i].value += key;
+                    correctLetters.push(key);
+                    inputs.querySelectorAll("input")[i].value = key;
 
                 }
             }
-            correctLetters += key;
+            
         } else {
 
             // Update incorrect guess
             maxGuesses--;
-            incorrectLetters.push(`${key}`);
-            mistakes.innerText = incorrectLetters;
+            incorrectLetters.push(` ${key}`);
+           
         }
+        mistakes.innerText = incorrectLetters;
     }
 
     // Update remain guess and check for win-lose conditions
