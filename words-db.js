@@ -95,34 +95,34 @@ let wordList = [
         hint: "Miglior store di sempre"
     },
     {
-        word: "banana",
-        topic: "",
-        hint: "Potrebbe estinguersi"
+        word: "aldo",
+        topic: "Commedia",
+        hint: "'Non ci posso credere!'"
     },
     {
-        word: "banana",
-        topic: "Cibo",
-        hint: "Potrebbe estinguersi"
+        word: "giovanni",
+        topic: "Commedia",
+        hint: "'Taci tu, che sei zoccola!'"
     },
     {
-        word: "banana",
-        topic: "Cibo",
-        hint: "Potrebbe estinguersi"
+        word: "giacomo",
+        topic: "Commedia",
+        hint: "'Pum, via come una anguilla!'"
     },
     {
-        word: "banana",
-        topic: "Cibo",
-        hint: "Potrebbe estinguersi"
+        word: "gabriele",
+        topic: "Scuola",
+        hint: "Piace molto a Ludovici"
     },
     {
-        word: "banana",
-        topic: "Cibo",
-        hint: "Potrebbe estinguersi"
+        word: "matteo",
+        topic: "Scuola",
+        hint: "Non il don, ma quasi"
     },
     {
-        word: "banana",
-        topic: "Cibo",
-        hint: "Potrebbe estinguersi"
+        word: "linux",
+        topic: "Informatica",
+        hint: "Best kernel EVER!!!"
     },
     
 ]
