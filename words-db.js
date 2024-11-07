@@ -79,4 +79,50 @@ let wordList = [
         topic: "Cibo",
         hint: "Potrebbe estinguersi"
     },
+    {
+        word: "verme",
+        topic: "Animali",
+        hint: "E' un tipo solitario"
+    },
+    {
+        word: "musk",
+        topic: "Mondo",
+        hint: "Genio self-made man"
+    },
+    {
+        word: "steam",
+        topic: "Internet",
+        hint: "Miglior store di sempre"
+    },
+    {
+        word: "banana",
+        topic: "",
+        hint: "Potrebbe estinguersi"
+    },
+    {
+        word: "banana",
+        topic: "Cibo",
+        hint: "Potrebbe estinguersi"
+    },
+    {
+        word: "banana",
+        topic: "Cibo",
+        hint: "Potrebbe estinguersi"
+    },
+    {
+        word: "banana",
+        topic: "Cibo",
+        hint: "Potrebbe estinguersi"
+    },
+    {
+        word: "banana",
+        topic: "Cibo",
+        hint: "Potrebbe estinguersi"
+    },
+    {
+        word: "banana",
+        topic: "Cibo",
+        hint: "Potrebbe estinguersi"
+    },
+    
 ]
